@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 224, 222);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+label {
+  display: block;
+}
+
+nav {
+  background: hsl(60, 88%, 63%);
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+textarea {
+  width: 800px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 80%;
+}
+
+button {
+  display: block;
+  margin: 1rem 0;
+  background-color: yellowgreen;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+.output {
+  display: none;
+}
+
+.render {
+  display: block;
+  height: 100px;
+  width: 800px;
+  border: 1px solid black;
+}
